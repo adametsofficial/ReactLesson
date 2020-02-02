@@ -1,0 +1,11 @@
+{
+  "name": "react.lesson",
+  "version": "1.0.0",
+  "description": "React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladislav <av.styledev@gmail.com>",
+  "license": "ISC"
+}
