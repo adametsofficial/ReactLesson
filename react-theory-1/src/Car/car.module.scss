@@ -1,0 +1,47 @@
+.Car {
+    /* border: 1px solid #ccc; */
+    padding: 10px 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transition: border, box-shadow .3s;
+
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14);
+
+    &:hover {
+        border: 1px dashed #ccc;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .25);
+        cursor: pointer;
+    }
+}
+
+.input {
+    padding: 5px;
+}
+
+.input.green {
+    border: 2px dashed rgb(43, 255, 0) !important;
+}
+
+.input.red {
+    border: 2px dashed rgb(255, 0, 0) !important;
+
+}
+
+.deleteBtn {
+    background: none;
+    margin-top: 15px;
+}
+
+input:active,
+.input:focus {
+    outline: none;
+}
+
+.input.bold {
+    border: 3px solid green;
+    font-weight: bold;
+}

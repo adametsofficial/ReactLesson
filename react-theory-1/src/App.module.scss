@@ -1,0 +1,33 @@
+
+
+.div-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.toggleBtn{
+    background: none;
+    border: 1px solid #555;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        background: #000;
+        color: #fff;
+        font-size: 17px;
+    }
+
+}
+.Ttile{
+    color: rgb(229, 255, 0);
+}
